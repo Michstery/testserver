@@ -4,5 +4,23 @@
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "morgan": "^1.10.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "testserver",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michstery/testserver.git"
+  },
+  "author": "michstery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michstery/testserver/issues"
+  },
+  "homepage": "https://github.com/Michstery/testserver#readme",
+  "description": ""
 }
