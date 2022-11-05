@@ -5,6 +5,7 @@ const router = express.Router();
 
 router
   .route('/')
-  .get(testController.getAllTest);
+  .get(testController.getAllTest)
+  .post(testController.createTest);
 
 module.exports = router;
